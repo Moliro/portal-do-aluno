@@ -1,0 +1,4 @@
+Gabarito da Aula 2 (componentes e props).
+Contém App.jsx e components/RedacaoCard.jsx já completos.
+Para conferir: copie estes arquivos sobre os de src/ e rode "npm run dev".
+Você deve ver o cabeçalho e os cards de redação com os badges.
