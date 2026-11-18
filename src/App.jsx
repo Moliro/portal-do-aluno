@@ -19,10 +19,8 @@ export default function App() {
     .filter ((r) => r.tema.includes(busca))
   );
 
-  {
-    visiveis.map((r) =>
-      <RedacaoCard key={r.id} redacao={r} />)
-  };
+  {visiveis.map((r) =>
+    <RedacaoCard key={r.id} redacao={r} />)};
 
   return (
     <div className="pagina">
